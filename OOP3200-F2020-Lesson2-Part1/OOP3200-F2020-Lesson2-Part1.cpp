@@ -1,6 +1,12 @@
-// OOP3200-F2020-Lesson2-Part1.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
+/*
+ * Author: Nicholas Shortt
+ * StudentID: 100630003
+ * Date: September 31, 2021
+ * Project: OOP3200-F2021-Lesson2-Part1
+ * Description: Example code that was done by Following along with the class demo done by prof Tom Tsiliopoulos
+ *
+ *
+ */
 #include <iostream>
 
 int main()
