@@ -3,7 +3,7 @@
 #include <iostream>
 #include <ostream>
 
-Person::Person(const std::string& name, const int age)// options 1: : m_name(name), m_age(age)
+Person::Person(const std::string& name, int age)// options 1: : m_name(name), m_age(age)
 {
 	// option 2: Long initialization
 	//m_name = name;
@@ -47,7 +47,7 @@ void Person::SetName(const std::string& name = "not set")
 /// This method takes one integer parameter, age, and sets the m_age variable to its value
 /// </summary>
 /// <param name="name"></param>
-void Person::SetAge(const int age = 0)
+void Person::SetAge(int age = 0)
 {
 	m_age = age;
 	std::cout << "Age set to: " << age << std::endl;

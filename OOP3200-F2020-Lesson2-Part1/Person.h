@@ -8,7 +8,7 @@ class Person
 {
 public:
 	// CONSTRUCTOR
-	Person(const std::string& name, const int age);
+	Person(const std::string& name, int age);
 
 	// DESTRUCTOR
 	~Person();
