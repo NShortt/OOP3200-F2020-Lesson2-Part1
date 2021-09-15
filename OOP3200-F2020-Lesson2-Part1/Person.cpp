@@ -3,7 +3,7 @@
 #include <iostream>
 #include <ostream>
 
-Person::Person(const std::string& name, int age)// options 1: : m_name(name), m_age(age)
+Person::Person(const std::string& name, const int age)// options 1: : m_name(name), m_age(age)
 {
 	// option 2: Long initialization
 	//m_name = name;
